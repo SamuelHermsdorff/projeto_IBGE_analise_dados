@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Dashboard IBGE</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="dashboard-header">
+      <div class="header-content">
+        <h1>Dashboard IBGE</h1>
+
+        <p>Análise dos municípios brasileiros</p>
+      </div>
+    </header>
+
+    <main class="dashboard">
+      <!-- Indicadores -->
+
+      <section class="dashboard-section">
+        <h2>Indicadores</h2>
+
+        <div class="indicators-grid">
+          <article class="indicator-card">
+            <span class="indicator-title"> Total de municípios </span>
+
+            <strong id="total-municipios" class="indicator-value"> -- </strong>
+          </article>
+
+          <article class="indicator-card">
+            <span class="indicator-title"> Estado com mais municípios </span>
+
+            <strong id="estado-maior" class="indicator-value"> -- </strong>
+          </article>
+
+          <article class="indicator-card">
+            <span class="indicator-title"> Quantidade do estado líder </span>
+
+            <strong id="quantidade-maior" class="indicator-value"> -- </strong>
+          </article>
+
+          <article class="indicator-card">
+            <span class="indicator-title"> Estado com menos municípios </span>
+
+            <strong id="estado-menor" class="indicator-value"> -- </strong>
+          </article>
+        </div>
+      </section>
+
+      <!-- Gráficos -->
+
+      <section class="dashboard-section">
+        <h2>Visualização dos dados</h2>
+
+        <div class="charts-grid">
+          <article class="chart-card">
+            <h3>Municípios por estado</h3>
+
+            <div class="chart-container">
+              <canvas id="grafico-estados"></canvas>
+            </div>
+          </article>
+
+          <article class="chart-card">
+            <h3>Municípios por região</h3>
+
+            <div class="chart-container">
+              <canvas id="grafico-regioes"></canvas>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Tabela -->
+
+      <section class="dashboard-section">
+        <h2>Municípios por estado</h2>
+
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Estado</th>
+
+                <th>Quantidade de municípios</th>
+              </tr>
+            </thead>
+
+            <tbody id="tabela-estados">
+              <tr>
+                <td colspan="2">Os dados serão carregados aqui.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Projeto de Análise de Dados do IBGE</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

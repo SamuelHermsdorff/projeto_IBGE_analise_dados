@@ -1,0 +1,155 @@
+{
+    "indicadores": {
+        "total_municipios": 5571,
+        "estado_maior_quantidade": {
+            "nome": "MG",
+            "quantidade": 853
+        },
+        "estado_menor_quantidade": {
+            "nome": "Não informado",
+            "quantidade": 1
+        }
+    },
+    "graficos": {
+        "municipios_por_estado": [
+            {
+                "estado": "MG",
+                "quantidade": 853
+            },
+            {
+                "estado": "SP",
+                "quantidade": 645
+            },
+            {
+                "estado": "RS",
+                "quantidade": 497
+            },
+            {
+                "estado": "BA",
+                "quantidade": 417
+            },
+            {
+                "estado": "PR",
+                "quantidade": 399
+            },
+            {
+                "estado": "SC",
+                "quantidade": 295
+            },
+            {
+                "estado": "GO",
+                "quantidade": 246
+            },
+            {
+                "estado": "PI",
+                "quantidade": 224
+            },
+            {
+                "estado": "PB",
+                "quantidade": 223
+            },
+            {
+                "estado": "MA",
+                "quantidade": 217
+            },
+            {
+                "estado": "PE",
+                "quantidade": 185
+            },
+            {
+                "estado": "CE",
+                "quantidade": 184
+            },
+            {
+                "estado": "RN",
+                "quantidade": 167
+            },
+            {
+                "estado": "PA",
+                "quantidade": 144
+            },
+            {
+                "estado": "MT",
+                "quantidade": 141
+            },
+            {
+                "estado": "TO",
+                "quantidade": 139
+            },
+            {
+                "estado": "AL",
+                "quantidade": 102
+            },
+            {
+                "estado": "RJ",
+                "quantidade": 92
+            },
+            {
+                "estado": "MS",
+                "quantidade": 79
+            },
+            {
+                "estado": "ES",
+                "quantidade": 78
+            },
+            {
+                "estado": "SE",
+                "quantidade": 75
+            },
+            {
+                "estado": "AM",
+                "quantidade": 62
+            },
+            {
+                "estado": "RO",
+                "quantidade": 52
+            },
+            {
+                "estado": "AC",
+                "quantidade": 22
+            },
+            {
+                "estado": "AP",
+                "quantidade": 16
+            },
+            {
+                "estado": "RR",
+                "quantidade": 15
+            },
+            {
+                "estado": "DF",
+                "quantidade": 1
+            },
+            {
+                "estado": "Não informado",
+                "quantidade": 1
+            }
+        ],
+        "municipios_por_regiao": [
+            {
+                "regiao": "Nordeste",
+                "quantidade": 1794
+            },
+            {
+                "regiao": "Sudeste",
+                "quantidade": 1668
+            },
+            {
+                "regiao": "Sul",
+                "quantidade": 1191
+            },
+            {
+                "regiao": "Centro-Oeste",
+                "quantidade": 467
+            },
+            {
+                "regiao": "Norte",
+                "quantidade": 450
+            },
+            {
+                "regiao": "Não informado",
+                "quantidade": 1
+            }
+        ]
+    }
+}
